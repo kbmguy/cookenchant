@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.example.cookenchant.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractFurnaceBlockEntityMixin",
+    "FurnaceAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

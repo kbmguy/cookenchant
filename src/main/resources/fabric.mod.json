@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "cookenchant",
+  "version": "${version}",
+  "name": "Cook Enchant",
+  "description": "Cook any enchantable item (tools, weapons, armor) in a furnace and it comes out with a random max-level enchantment.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.cookenchant.CookEnchantMod"]
+  },
+  "mixins": ["cookenchant.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
